@@ -17,12 +17,13 @@ against a living outdoor climate:
 | Project | What it is |
 | --- | --- |
 | [**EZvac**](https://github.com/EZvac-Plugin/EZvac) | The plugin: systems, the climate simulation, lit screens on every sign, control menus, an on-screen HUD and PlaceholderAPI placeholders |
-| **LiveExposure** *(in development)* | A survival addon: heat and cold that wear players down when they're out in the elements without shelter, built on the EZvac API |
+| [**LiveExposure**](https://github.com/EZvac-Plugin/LiveExposure) | The first addon: a body temperature for survival players, so heat and cold wear them down out in the elements, with an optional sickness system. Built on the EZvac API |
 
 ## Get EZvac
 
 - **[Modrinth](https://modrinth.com/plugin/ezvac-plugin)**: every release, ready to download
 - **[GitHub releases](https://github.com/EZvac-Plugin/EZvac/releases)**: the same jars, with full release notes
+- **[LiveExposure releases](https://github.com/EZvac-Plugin/LiveExposure/releases)**: the addon, which needs EZvac ALPHA 2.1 Pilot 4 or newer
 - **[Documentation](https://github.com/EZvac-Plugin/EZvac/tree/main/docs)**: start with *Getting started*
 
 ## Build on EZvac
@@ -32,7 +33,7 @@ EZvac has a public API for addons, starting with ALPHA 2.1 Pilot 4.
 - **How to get it:** through [JitPack](https://jitpack.io/#EZvac-Plugin/EZvac).
 - **How addons work:** they're ordinary Paper plugins, so anything from a scoreboard to a survival mechanic can use EZvac's climate.
 
-The API guide is in the EZvac docs.
+Start with the [API guide](https://github.com/EZvac-Plugin/EZvac/blob/main/docs/api.md). [LiveExposure](https://github.com/EZvac-Plugin/LiveExposure) is a complete, open-source example of an addon.
 
 ## Contributing
 
