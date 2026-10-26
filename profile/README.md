@@ -8,7 +8,8 @@ source, for Paper and Purpur servers.
 EZvac lets players build working HVAC systems out of ordinary blocks:
 thermostats, heat pumps, air conditioners, furnaces, boilers and pool heat
 pumps, with vents that carry air through real airflow, and dehumidifiers and
-humidifiers. Rooms warm up and cool down over time, and every system works
+humidifiers. One link tool connects each thermostat to its equipment, vents
+and signs. Rooms warm up and cool down over time, and every system works
 against a living outdoor climate:
 - every biome has its own climate, with smooth transitions between biomes;
 - seasons, weather and humidity;
@@ -29,7 +30,7 @@ drop it into `plugins/` next to EZvac.
 | Addon | What it does | Needs |
 | --- | --- | --- |
 | [**LiveExposure**](https://github.com/EZvac-Plugin/LiveExposure) | A body temperature for survival players, shown on EZvac's HUD: heat and cold wear them down out in the elements, with an optional sickness system | EZvac ALPHA 2.1 or newer |
-| [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it | EZvac ALPHA 2.2 or newer |
+| [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it. Holding EZvac's link tool shows it too, with the system being linked picked out | EZvac ALPHA 2.2 or newer (ALPHA 3.0 for the link tool) |
 
 ## Third-party addons
 
