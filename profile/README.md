@@ -1,22 +1,34 @@
 # EZvac
 
 **Realistic heating, cooling and indoor climate for Minecraft.** Free and open
-source, for Paper and Purpur servers.
+source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
+1.21.x until BETA 2.x).
+
+> **Now in BETA:** [BETA 1.0 Pilot 2](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P2)
+> brings mini thermostats on wall buttons and a thermostat menu that runs the
+> whole system. Pilots are test builds ahead of the full BETA 1.0.
 
 ## EZvac
 
 EZvac lets players build working HVAC systems out of ordinary blocks:
-thermostats, heat pumps, air conditioners, furnaces, boilers and pool heat
-pumps, with vents that carry air through real airflow, and dehumidifiers and
-humidifiers. One link tool connects each thermostat to its equipment, vents
-and signs. Rooms warm up and cool down over time, and every system works
-against a living outdoor climate:
+thermostats (on a sign, or a mini one on a wall button), heat pumps, air
+conditioners, furnaces, boilers and pool heat pumps, with vents that carry air
+through real airflow, and dehumidifiers, humidifiers and air purifiers. One
+link tool connects each thermostat to its equipment, vents and signs. Rooms
+warm up and cool down over time, and every system works against a living
+outdoor climate:
 - every biome has its own climate, with smooth transitions between biomes;
-- seasons, weather and humidity;
+- seasons, weather, wind and humidity;
+- the air itself: smoke, dust and pollen, scored as the US EPA Air Quality
+  Index;
 - colder air high on mountains, and steady air deep underground.
 
-Lit screens on every sign, control menus, an on-screen HUD and PlaceholderAPI
-placeholders show what's going on.
+Bigger buildings need more equipment, as real ones do: open doors and holes
+leak, and neighbouring systems even out. Weather stations forecast the week
+ahead.
+
+Lit screens on every device, control menus, a quick settings menu for server
+owners, an on-screen HUD and PlaceholderAPI placeholders show what's going on.
 
 - **[Modrinth](https://modrinth.com/plugin/ezvac-plugin)**: every release, ready to download
 - **[GitHub](https://github.com/EZvac-Plugin/EZvac)**: the source, and the [releases](https://github.com/EZvac-Plugin/EZvac/releases) with full notes
@@ -31,6 +43,7 @@ drop it into `plugins/` next to EZvac.
 | --- | --- | --- |
 | [**LiveExposure**](https://github.com/EZvac-Plugin/LiveExposure) | A body temperature for survival players, shown on EZvac's HUD: heat and cold wear them down out in the elements, with an optional sickness system | EZvac ALPHA 2.1 or newer |
 | [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it. Holding EZvac's link tool shows it too, with the system being linked picked out | EZvac ALPHA 2.2 or newer (ALPHA 3.0 for the link tool) |
+| [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map: every weather station's coverage as a circle on squaremap, coloured by whether it's working, with today's forecast a click away | EZvac BETA 1.0 Pilot 2 or newer, and squaremap |
 
 ## Third-party addons
 
@@ -41,16 +54,19 @@ it can be listed here.
 ### Build your own
 
 EZvac has a public API for addons. Addons are ordinary Paper plugins, so
-anything from a scoreboard to a survival mechanic can use EZvac's climate.
+anything from a scoreboard to a web map to a survival mechanic can use
+EZvac's climate.
 - **What it offers:**
-  - climate readings for any spot or player;
+  - climate readings for any spot or player, with air quality and wind;
   - every device and where it is: thermostats, equipment, vents, sensors and more;
-  - the season calendar;
+  - each system's size, profile and what needs attention;
+  - weather stations and their seven-day forecasts;
+  - the season calendar and the server's settings;
   - events, such as a system switching mode or a device being added;
   - sections of your own on EZvac's HUD.
 - **How to get it:** through [JitPack](https://jitpack.io/#EZvac-Plugin/EZvac).
 
-Start with the [API guide](https://github.com/EZvac-Plugin/EZvac/blob/main/docs/api.md). Both official addons are complete, open-source examples.
+Start with the [API guide](https://github.com/EZvac-Plugin/EZvac/blob/main/docs/api.md). All three official addons are complete, open-source examples.
 
 ## Contributing
 
