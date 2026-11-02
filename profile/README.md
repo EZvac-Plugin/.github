@@ -43,7 +43,7 @@ drop it into `plugins/` next to EZvac.
 | --- | --- | --- |
 | [**LiveExposure**](https://github.com/EZvac-Plugin/LiveExposure) | A body temperature for survival players, shown on EZvac's HUD: heat and cold wear them down out in the elements, with an optional sickness system | EZvac ALPHA 2.1 or newer |
 | [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it. Holding EZvac's link tool shows it too, with the system being linked picked out | EZvac ALPHA 2.2 or newer (ALPHA 3.0 for the link tool) |
-| [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map: every weather station's coverage as a circle on squaremap, coloured by whether it's working, with today's forecast a click away | EZvac BETA 1.0 Pilot 2 or newer, and squaremap |
+| [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map: every weather station's coverage as a circle on squaremap, coloured by whether it's working, with today's forecast a click away. [Download 0.1.0](https://github.com/EZvac-Plugin/MapPeek/releases/tag/0.1.0) | EZvac [BETA 1.0 Pilot 2](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P2) or newer, and [squaremap](https://modrinth.com/plugin/squaremap) |
 
 ## Third-party addons
 
