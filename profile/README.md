@@ -4,9 +4,10 @@
 source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 1.21.x until BETA 2.x).
 
-> **Now in BETA:** [BETA 1.0 Pilot 2](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P2)
-> brings mini thermostats on wall buttons and a thermostat menu that runs the
-> whole system. Pilots are test builds ahead of the full BETA 1.0.
+> **Now in BETA:** [BETA 1.0 Pilot 3](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P3)
+> gives the wind a direction, set by the climate and turned by passing rain,
+> and makes it differ from region to region; weather stations forecast their
+> own area's wind and air. Pilots are test builds ahead of the full BETA 1.0.
 
 ## EZvac
 
@@ -18,7 +19,8 @@ link tool connects each thermostat to its equipment, vents and signs. Rooms
 warm up and cool down over time, and every system works against a living
 outdoor climate:
 - every biome has its own climate, with smooth transitions between biomes;
-- seasons, weather, wind and humidity;
+- seasons following Minecraft's own days, weather, humidity, and wind from
+  the climate's prevailing direction that differs from region to region;
 - the air itself: smoke, dust and pollen, scored as the US EPA Air Quality
   Index;
 - colder air high on mountains, and steady air deep underground.
@@ -43,7 +45,7 @@ drop it into `plugins/` next to EZvac.
 | --- | --- | --- |
 | [**LiveExposure**](https://github.com/EZvac-Plugin/LiveExposure) | A body temperature for survival players, shown on EZvac's HUD: heat and cold wear them down out in the elements, with an optional sickness system | EZvac ALPHA 2.1 or newer |
 | [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it. Holding EZvac's link tool shows it too, with the system being linked picked out | EZvac ALPHA 2.2 or newer (ALPHA 3.0 for the link tool) |
-| [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map: every weather station's coverage as a circle on squaremap, coloured by whether it's working, with today's forecast a click away. [Download 0.1.0](https://github.com/EZvac-Plugin/MapPeek/releases/tag/0.1.0) | EZvac [BETA 1.0 Pilot 2](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P2) or newer, and [squaremap](https://modrinth.com/plugin/squaremap) |
+| [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map, on squaremap or BlueMap: weather stations with their coverage, wind arrows and forecasts; the wind and air quality across the explored map, the time and season, and optionally the wind in motion. A `/mappeek` menu sets it up. [Download 0.2.0](https://github.com/EZvac-Plugin/MapPeek/releases/tag/0.2.0) | EZvac [BETA 1.0 Pilot 3](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P3) or newer, and [squaremap](https://modrinth.com/plugin/squaremap) or [BlueMap](https://modrinth.com/plugin/bluemap) |
 
 ## Third-party addons
 
