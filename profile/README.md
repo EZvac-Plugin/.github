@@ -4,12 +4,13 @@
 source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 1.21.x until BETA 2.x).
 
-> **Now in BETA:** [BETA 1.0 Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4)
-> makes seasons 30 days long and turns rain to snow by EZvac's own air, makes
-> the sun feel warmer than the shade, spreads the smoke of open fires
-> downwind, and adds an Addons menu. Alongside it comes
-> [EZclimates](https://github.com/EZvac-Plugin/EZclimates), which shows the
-> seasons in the world. Pilots are test builds ahead of the full BETA 1.0.
+> **Now in BETA:** [BETA 1.0 Pilot 5](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P5)
+> builds EZdebug into EZvac: hold the link tool to see the system you're
+> working on, with the openings its room leaks through glowing red.
+> [Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4)
+> brought 30-day seasons, rain or snow by EZvac's own air, the Addons menu
+> and [EZclimates](https://github.com/EZvac-Plugin/EZclimates). Pilots are
+> test builds ahead of the full BETA 1.0.
 
 ## EZvac
 
@@ -35,7 +36,8 @@ ahead.
 
 Lit screens on every device, control menus, a quick settings menu for server
 owners (with a menu that switches official addons), an on-screen HUD and
-PlaceholderAPI placeholders show what's going on.
+PlaceholderAPI placeholders show what's going on. Built-in EZdebug shows the
+system you're linking as EZvac sees it, down to where its room leaks.
 
 - **[Modrinth](https://modrinth.com/plugin/ezvac-plugin)**: every release, ready to download
 - **[GitHub](https://github.com/EZvac-Plugin/EZvac)**: the source, and the [releases](https://github.com/EZvac-Plugin/EZvac/releases) with full notes
@@ -51,7 +53,7 @@ has an update.
 | Addon | What it does | Needs |
 | --- | --- | --- |
 | [**EZclimates**](https://github.com/EZvac-Plugin/EZclimates) | Seasons you can see and feel: rain and snow where EZvac's air says, leaves that turn through the year, snow that settles and melts, frozen lakes, crops that grow by the air (a heated greenhouse grows through winter), flowers and leaf litter by the season, planned weather with snowstorms, heat waves and cold snaps, and body temperature. [Download 0.1.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.1.0) | EZvac [BETA 1.0 Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4) or newer, Minecraft 26.1 or newer, and [packetevents](https://github.com/retrooper/packetevents) |
-| [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | A Debug Potion for admins: signs light up in coloured frames, equipment glows through walls, and working vents puff colour, seen only by whoever drank it. Holding EZvac's link tool shows it too, with the system being linked picked out. [Download 0.3.0](https://github.com/EZvac-Plugin/EZdebugPlus/releases/tag/0.3.0) | EZvac ALPHA 2.2 or newer (ALPHA 3.0 for the link tool) |
+| [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | Adds to EZvac's built-in EZdebug: a Debug Potion that shows every system at once, seen only by whoever drank it. Signs light up in coloured frames, equipment glows through walls, working vents puff colour, every room's edge is dotted in and its leaks glow red, weather stations' areas are outlined, and dotted lines join devices to what they're linked to. [Download 0.4.0](https://github.com/EZvac-Plugin/EZdebugPlus/releases/tag/0.4.0) | EZvac ALPHA 2.2 or newer (BETA 1.0 Pilot 5 for rooms and leaks) |
 | [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map, on squaremap or BlueMap: weather stations with their coverage, wind arrows and forecasts; the wind and air quality across the explored map, the time and season, and optionally the wind in motion. A `/mappeek` menu sets it up. [Download 0.3.0](https://github.com/EZvac-Plugin/MapPeek/releases/tag/0.3.0) | EZvac [BETA 1.0 Pilot 3](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P3) or newer, and [squaremap](https://modrinth.com/plugin/squaremap) or [BlueMap](https://modrinth.com/plugin/bluemap) |
 
 **Discontinued:** [LiveExposure](https://github.com/EZvac-Plugin/LiveExposure),
