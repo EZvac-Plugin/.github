@@ -103,7 +103,14 @@ addon's page says what it needs.
 
 **Where do I report a bug or suggest something?**
 In [EZvac's issues](https://github.com/EZvac-Plugin/EZvac/issues), or the
-addon's own repository for an addon.
+official addon's own repository for an official addon.
+
+**Where do I get help with a third-party addon?**
+From that addon, through its own page or issues: EZvac can't support addons
+it doesn't make. If you're **developing** an addon and something in EZvac's
+API doesn't work as documented, or you need something it doesn't offer yet,
+that belongs in [EZvac's issues](https://github.com/EZvac-Plugin/EZvac/issues):
+help for addon developers is welcome there.
 
 ## Contributing
 
