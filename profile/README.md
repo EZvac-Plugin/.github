@@ -83,6 +83,28 @@ EZvac's climate.
 
 Start with the [API guide](https://github.com/EZvac-Plugin/EZvac/blob/main/docs/api.md). The official addons are complete, open-source examples.
 
+## Questions
+
+**Why doesn't EZvac's addon store list third-party addons?**
+The store in `/hvac addons` only ever lists official addons, and always
+will. EZvac can't verify a third-party addon's code, security or who really
+made it, and a link from inside EZvac would look like an endorsement.
+Well-known, widely used third-party addons can still be listed in the
+*Third-party addons* section on this page, which links to their own pages.
+
+**Does EZvac download or install addons?**
+No. The store only gives a link to each addon's GitHub page. You download
+and install it yourself.
+
+**Which Minecraft versions are supported?**
+EZvac BETA 1.x runs on Paper and Purpur 26.1 to 26.3, and still on 1.21.x
+until BETA 2.0. Some addons need 26.1 or newer (EZclimates does); each
+addon's page says what it needs.
+
+**Where do I report a bug or suggest something?**
+In [EZvac's issues](https://github.com/EZvac-Plugin/EZvac/issues), or the
+addon's own repository for an addon.
+
 ## Contributing
 
 Bug reports, ideas and pull requests are welcome. See
