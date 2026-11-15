@@ -73,7 +73,7 @@ Made and supported by their own authors, not by EZvac.
 
 | Addon | What it does | Needs |
 | --- | --- | --- |
-| [**EZStats**](https://github.com/colebolebole/EZStats) | A web dashboard for your devices: claim them in game, group them into homes, and see and control them from a browser, with a Nest-style thermostat dial and a Weather tab. [Download 0.6.1](https://github.com/colebolebole/EZStats/releases/tag/v0.6.1) | EZvac BETA 1.0 Pilot 3 or newer (Pilot 7 to control devices), Paper 1.21.x |
+| [**EZStats**](https://github.com/colebolebole/EZStats) | A web dashboard for your devices: claim them in game, group them into homes, and see and control them from a browser, with a Nest-style thermostat dial and a Weather tab. [Download 0.6.1](https://github.com/colebolebole/EZStats/releases/tag/v0.6.1) | EZvac BETA 1.0 Pilot 3 or newer (Pilot 7 to control devices), Paper 1.21.x or 26.1 to 26.3 |
 
 **Built an addon?** Open an issue on
 [EZvac](https://github.com/EZvac-Plugin/EZvac/issues) with a link to it, and
