@@ -4,12 +4,14 @@
 source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 1.21.x until BETA 2.x).
 
-> **Now in BETA:** [BETA 1.0 Pilot 6](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P6)
-> words the weather as players see it, and comes with
-> [EZclimates 0.2.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.2.0):
-> body temperature that meets rain, fires, food and the cold's hunger.
-> [Pilot 5](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P5)
-> built EZdebug into EZvac, and
+> **Now in BETA:** [BETA 1.0 Pilot 7](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P7),
+> "EZvac/R", brings refrigeration (mini fridges, fridges, refrigerators and
+> deep freezers, with frost) and a new look for every screen, with buttons on
+> the wall; addons can now control any device, from a web panel for example.
+> It comes with [EZclimates 0.3.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.3.0):
+> food that spoils, kept longer the colder it's kept.
+> [Pilot 6](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P6)
+> worded the weather as players see it, and
 > [Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4)
 > brought 30-day seasons, the Addons menu and EZclimates. Pilots are test
 > builds ahead of the full BETA 1.0.
@@ -19,7 +21,8 @@ source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 EZvac lets players build working HVAC systems out of ordinary blocks:
 thermostats (on a screen, or a mini one on a wall button), heat pumps, air
 conditioners, furnaces, boilers and pool heat pumps, with vents that carry air
-through real airflow, and dehumidifiers, humidifiers and air purifiers. One
+through real airflow, and dehumidifiers, humidifiers and air purifiers, and
+fridges and freezers that keep barrels cold and warm the room they stand in. One
 link tool connects each thermostat to its equipment, vents and signs. Rooms
 warm up and cool down over time, and every system works against a living
 outdoor climate:
@@ -36,7 +39,8 @@ Bigger buildings need more equipment, as real ones do: open doors and holes
 leak, and neighbouring systems even out. Weather stations forecast the week
 ahead.
 
-Lit screens on every device, control menus, a quick settings menu for server
+Lit screens on every device, with buttons where a choice belongs on the wall,
+control menus, a quick settings menu for server
 owners (with a menu that switches official addons), an on-screen HUD and
 PlaceholderAPI placeholders show what's going on. Built-in EZdebug shows the
 system you're linking as EZvac sees it, down to where its room leaks.
@@ -54,7 +58,7 @@ has an update.
 
 | Addon | What it does | Needs |
 | --- | --- | --- |
-| [**EZclimates**](https://github.com/EZvac-Plugin/EZclimates) | Seasons you can see and feel: rain and snow where EZvac's air says, leaves that turn through the year, snow that settles and melts, frozen lakes, crops that grow by the air (a heated greenhouse grows through winter), flowers and leaf litter by the season, planned weather with snowstorms, heat waves and cold snaps, and body temperature: rain soaks you, fires warm you, food helps and the cold makes you hungry. [Download 0.2.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.2.0) | EZvac [BETA 1.0 Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4) or newer, Minecraft 26.1 or newer, and [packetevents](https://github.com/retrooper/packetevents) |
+| [**EZclimates**](https://github.com/EZvac-Plugin/EZclimates) | Seasons you can see and feel: rain and snow where EZvac's air says, leaves that turn through the year, snow that settles and melts, frozen lakes, crops that grow by the air (a heated greenhouse grows through winter), flowers and leaf litter by the season, planned weather with snowstorms, heat waves and cold snaps, body temperature: rain soaks you, fires warm you, food helps and the cold makes you hungry; and food that spoils, kept longer in EZvac's fridges and freezers. [Download 0.3.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.3.0) | EZvac [BETA 1.0 Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4) or newer, Minecraft 26.1 or newer, and [packetevents](https://github.com/retrooper/packetevents) |
 | [**EZdebug+**](https://github.com/EZvac-Plugin/EZdebugPlus) | Adds to EZvac's built-in EZdebug: a Debug Potion that shows every system at once, seen only by whoever drank it. Signs light up in coloured frames, equipment glows through walls, working vents puff colour, every room's edge is dotted in and its leaks glow red, weather stations' areas are outlined, and dotted lines join devices to what they're linked to. [Download 0.4.0](https://github.com/EZvac-Plugin/EZdebugPlus/releases/tag/0.4.0) | EZvac ALPHA 2.2 or newer (BETA 1.0 Pilot 5 for rooms and leaks) |
 | [**MapPeek**](https://github.com/EZvac-Plugin/MapPeek) | EZvac on your web map, on squaremap or BlueMap: weather stations with their coverage, wind arrows and forecasts; the wind and air quality across the explored map, the time and season, and optionally the wind in motion. A `/mappeek` menu sets it up. [Download 0.3.0](https://github.com/EZvac-Plugin/MapPeek/releases/tag/0.3.0) | EZvac [BETA 1.0 Pilot 3](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P3) or newer, and [squaremap](https://modrinth.com/plugin/squaremap) or [BlueMap](https://modrinth.com/plugin/bluemap) |
 
