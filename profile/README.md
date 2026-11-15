@@ -69,7 +69,13 @@ keeps working on Minecraft 1.21.x servers.
 
 ## Third-party addons
 
-None listed yet. **Built an addon?** Open an issue on
+Made and supported by their own authors, not by EZvac.
+
+| Addon | What it does | Needs |
+| --- | --- | --- |
+| [**EZStats**](https://github.com/colebolebole/EZStats) | A web dashboard for your devices: claim them in game, group them into homes, and see and control them from a browser, with a Nest-style thermostat dial and a Weather tab. [Download 0.6.1](https://github.com/colebolebole/EZStats/releases/tag/v0.6.1) | EZvac BETA 1.0 Pilot 3 or newer (Pilot 7 to control devices), Paper 1.21.x |
+
+**Built an addon?** Open an issue on
 [EZvac](https://github.com/EZvac-Plugin/EZvac/issues) with a link to it, and
 it can be listed here.
 
@@ -97,7 +103,7 @@ Start with the [API guide](https://github.com/EZvac-Plugin/EZvac/blob/main/docs/
 The store in `/hvac addons` only ever lists official addons, and always
 will. EZvac can't verify a third-party addon's code, security or who really
 made it, and a link from inside EZvac would look like an endorsement.
-Well-known, widely used third-party addons can still be listed in the
+Third-party addons that use EZvac's public API can still be listed in the
 *Third-party addons* section on this page, which links to their own pages.
 
 **Does EZvac download or install addons?**
