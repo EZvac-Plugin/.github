@@ -4,14 +4,15 @@
 source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 1.21.x until BETA 2.x).
 
-> **Now in BETA:** [BETA 1.0 Pilot 7](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P7),
-> "EZvac/R", brings refrigeration (mini fridges, fridges, refrigerators and
-> deep freezers, with frost) and a new look for every screen, with buttons on
-> the wall; addons can now control any device, from a web panel for example.
-> It comes with [EZclimates 0.3.0](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.3.0):
-> food that spoils, kept longer the colder it's kept.
-> [Pilot 6](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P6)
-> worded the weather as players see it, and
+> **Now in BETA:** [BETA 1.0 Pilot 8](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P8)
+> keeps houses running while nobody is near: thermostats, equipment, fridges
+> and purifiers work on in unloaded chunks, so a web or phone dashboard can
+> watch and control a home from anywhere.
+> [Pilot 7](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P7),
+> "EZvac/R", brought refrigeration (mini fridges, fridges, refrigerators and
+> deep freezers, with frost), a new look for every screen, and control of any
+> device from an addon. With [EZclimates 0.3.1](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.3.1),
+> food spoils, kept longer the colder it's kept.
 > [Pilot 4](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P4)
 > brought 30-day seasons, the Addons menu and EZclimates. Pilots are test
 > builds ahead of the full BETA 1.0.
