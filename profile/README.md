@@ -50,6 +50,12 @@ system you're linking as EZvac sees it, down to where its room leaks.
 - **[GitHub](https://github.com/EZvac-Plugin/EZvac)**: the source, and the [releases](https://github.com/EZvac-Plugin/EZvac/releases) with full notes
 - **[Documentation](https://github.com/EZvac-Plugin/EZvac/tree/main/docs)**: start with *Getting started*
 
+<p align="center">
+  <a href="https://bstats.org/plugin/bukkit/EZvac/35377"><img src="https://bstats.org/signatures/bukkit/EZvac.svg" alt="Servers and players running EZvac, on bStats" width="640"></a>
+  <br>
+  <sub>Servers and players running EZvac, from anonymous <a href="https://bstats.org/plugin/bukkit/EZvac/35377">bStats</a> statistics (Pilot 9 and newer; servers can opt out in quick settings).</sub>
+</p>
+
 ## Official addons
 
 Made alongside EZvac, built only on its public API. Each is its own plugin:
