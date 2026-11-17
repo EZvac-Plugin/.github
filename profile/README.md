@@ -4,17 +4,15 @@
 source, for Paper and Purpur servers on Minecraft 26.1 to 26.3 (and still
 1.21.x until BETA 2.x).
 
-> **Now in BETA:** [BETA 1.0 Pilot 9](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P9)
-> is a performance patch: the HUD about twenty times cheaper, no backup
-> stall, and a leaner controller, with
-> [EZclimates 0.3.2](https://github.com/EZvac-Plugin/EZclimates/releases/tag/0.3.2)
-> lighter too.
+> **Now in BETA:** [BETA 1.0 Pilot 10](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P10)
+> welcomes new servers: a first-start setup, and a guided tutorial that
+> builds your first system in a world of its own.
+> [Pilot 9](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P9)
+> made EZvac much lighter, and
 > [Pilot 8](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P8)
 > keeps houses running while nobody is near, so a web or phone dashboard can
-> control a home from anywhere, and
-> [Pilot 7](https://github.com/EZvac-Plugin/EZvac/releases/tag/BETA-1.0-P7),
-> "EZvac/R", brought refrigeration and a new look for every screen. Pilots
-> are test builds ahead of the full BETA 1.0.
+> control a home from anywhere. Pilots are test builds ahead of the full
+> BETA 1.0.
 
 ## EZvac
 
