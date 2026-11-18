@@ -43,9 +43,10 @@ owners (with a menu that switches official addons), an on-screen HUD and
 PlaceholderAPI placeholders show what's going on. Built-in EZdebug shows the
 system you're linking as EZvac sees it, down to where its room leaks.
 
+- **[Website](https://ezvac-plugin.github.io/EZvac/)**: the latest downloads, and the docs with search
 - **[Modrinth](https://modrinth.com/plugin/ezvac-plugin)**: every release, ready to download
 - **[GitHub](https://github.com/EZvac-Plugin/EZvac)**: the source, and the [releases](https://github.com/EZvac-Plugin/EZvac/releases) with full notes
-- **[Documentation](https://github.com/EZvac-Plugin/EZvac/tree/main/docs)**: start with *Getting started*
+- **[Documentation](https://ezvac-plugin.github.io/EZvac/getting-started/)**: start with *Getting started*
 
 <p align="center">
   <a href="https://bstats.org/plugin/bukkit/EZvac/35377"><img src="https://bstats.org/signatures/bukkit/EZvac.svg" alt="Servers and players running EZvac, on bStats" width="640"></a>
